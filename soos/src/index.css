@@ -11,8 +11,8 @@
   --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   --section-padding: 100px 5%;
   
-  --font-heading: 'Cormorant Garamond', serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-heading: 'Cairo', sans-serif;
+  --font-body: 'Cairo', sans-serif;
 }
 
 * {

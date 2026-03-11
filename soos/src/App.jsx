@@ -39,7 +39,7 @@ const translations = {
     placeOrder: "Place the order",
     summary: "Order Summary",
     total: "Total Price",
-    success: "Commandé avec Succès",
+    success: "Order Placed Successfully",
     successDesc: "Your journey to radiant hair has begun.",
     arArgan: "Organic Argan Oil",
     arArganDesc: "Rich in Vitamin E and essential fatty acids to hydrate and soften.",
@@ -52,7 +52,40 @@ const translations = {
     step2: "Nourishing",
     step2Desc: "Leave for 3-5 minutes to allow silk proteins and argan oil to penetrate deeply.",
     step3: "Revealing",
-    step3Desc: "Rinse thoroughly with cool water to seal the cuticles and reveal mirror-like shine."
+    step3Desc: "Rinse thoroughly with cool water to seal the cuticles and reveal mirror-like shine.",
+    slogan: "Elevating personal care through the power of nature and science.",
+    shopAll: "Shop All",
+    contact: "Contact",
+    joinGlow: "Join the Glow",
+    emailPlaceholder: "Your Email Address",
+    join: "Join",
+    rights: "All rights reserved.",
+    instagram: "Instagram",
+    pinterest: "Pinterest",
+    namePlace: "Jane Doe",
+    emailPlace: "jane@example.com",
+    phonePlace: "+212 600 000 000",
+    cityPlace: "Casablanca",
+    countryPlace: "Morocco",
+    addressPlace: "Street name, Building No, Apartment...",
+    rating: "Rating",
+    comment: "Comment",
+    addComment: "Add Comment",
+    skip: "Skip",
+    shareThoughts: "Share Your Thoughts",
+    shareThoughtsDesc: "Would you like to leave a comment about your experience?",
+    stars5: "5 Stars",
+    stars4: "4 Stars",
+    stars3: "3 Stars",
+    stars2: "2 Stars",
+    stars1: "1 Star",
+    commentPlace: "Write your review here...",
+    product: "Product",
+    productName: "SOS Hair Care (400g)",
+    freeShipping: "Free Express Shipping Included",
+    isSubmitting: "Sending...",
+    checkoutSubtitle: "Complete your details to enjoy the SOS experience.",
+    organicBadge: "100% Organic"
   },
   fr: {
     home: "Accueil",
@@ -97,7 +130,40 @@ const translations = {
     step2: "Nutrition",
     step2Desc: "Laisser agir 3 à 5 minutes pour permettre aux protéines de soie de pénétrer.",
     step3: "Révélation",
-    step3Desc: "Rincer abondamment à l'eau fraîche pour sceller les cuticules."
+    step3Desc: "Rincer abondamment à l'eau fraîche pour sceller les cuticules.",
+    slogan: "Élever les soins personnels grâce au pouvoir de la nature et de la science.",
+    shopAll: "Tout Boutique",
+    contact: "Contact",
+    joinGlow: "Rejoignez l'Éclat",
+    emailPlaceholder: "Votre Adresse Email",
+    join: "Rejoindre",
+    rights: "Tous droits réservés.",
+    instagram: "Instagram",
+    pinterest: "Pinterest",
+    namePlace: "Jean Dupont",
+    emailPlace: "jean@exemple.com",
+    phonePlace: "+212 600 000 000",
+    cityPlace: "Casablanca",
+    countryPlace: "Maroc",
+    addressPlace: "Nom de rue, n° d'immeuble, appartement...",
+    rating: "Évaluation",
+    comment: "Commentaire",
+    addComment: "Ajouter un commentaire",
+    skip: "Passer",
+    shareThoughts: "Partagez vos impressions",
+    shareThoughtsDesc: "Souhaitez-vous laisser un commentaire sur votre expérience ?",
+    stars5: "5 Étoiles",
+    stars4: "4 Étoiles",
+    stars3: "3 Étoiles",
+    stars2: "2 Étoiles",
+    stars1: "1 Étoile",
+    commentPlace: "Écrivez votre avis ici...",
+    product: "Produit",
+    productName: "SOS Soin Capillaire (400g)",
+    freeShipping: "Livraison Express Gratuite Incluse",
+    isSubmitting: "Envoi en cours...",
+    checkoutSubtitle: "Complétez vos coordonnées pour profiter de l'expérience SOS.",
+    organicBadge: "100% Biologique"
   },
   ar: {
     home: "الرئيسية",
@@ -142,7 +208,40 @@ const translations = {
     step2: "التغذية",
     step2Desc: "يترك لمدة 3-5 دقائق للسماح لبروتينات الحرير وزيت الأرغان بالتغلغل بعمق.",
     step3: "الكشف",
-    step3Desc: "يشطف جيداً بالماء البارد لإغلاق مسام الشعر والكشف عن لمعان كالمرايا."
+    step3Desc: "يشطف جيداً بالماء البارد لإغلاق مسام الشعر والكشف عن لمعان كالمرايا.",
+    slogan: "ارتقاء بالعناية الشخصية من خلال قوة الطبيعة والعلم.",
+    shopAll: "تسوق الكل",
+    contact: "اتصل بنا",
+    joinGlow: "انضم إلى التألق",
+    emailPlaceholder: "عنوان بريدك الإلكتروني",
+    join: "انضم",
+    rights: "جميع الحقوق محفوظة.",
+    instagram: "إنستغرام",
+    pinterest: "بينتيريست",
+    namePlace: "سارة أحمد",
+    emailPlace: "example@mail.com",
+    phonePlace: "+212 600 000 000",
+    cityPlace: "الدار البيضاء",
+    countryPlace: "المغرب",
+    addressPlace: "اسم الشارع، رقم المبنى، الشقة...",
+    rating: "التقييم",
+    comment: "التعليق",
+    addComment: "أضف تعليقاً",
+    skip: "تخطي",
+    shareThoughts: "شاركنا انطباعك",
+    shareThoughtsDesc: "هل ترغب في ترك تعليق حول تجربتك؟",
+    stars5: "5 نجوم",
+    stars4: "4 نجوم",
+    stars3: "3 نجوم",
+    stars2: "نجمتان",
+    stars1: "نجمة واحدة",
+    commentPlace: "اكتب تعليقك هنا...",
+    product: "المنتج",
+    productName: "SOS للعناية بالشعر (400غ)",
+    freeShipping: "شحن سريع مجاني مشمول",
+    isSubmitting: "جاري الإرسال...",
+    checkoutSubtitle: "أكمل بياناتك للاستمتاع بتجربة SOS.",
+    organicBadge: "100% عضوي"
   }
 };
 
@@ -380,7 +479,13 @@ function App() {
             {/* Product Description & Ingredients */}
             <section id="ingredients" className="section ingredients-section">
               <div className="container">
-                <div className="ingredients-grid grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="ingredients-grid grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center" dir="ltr">
+                  <div className="ingredients-visual reveal">
+                    <div className="ingredients-model-card">
+                      <img src={model2} alt="Skincare Model" className="ingredients-model" />
+                      <div className="floating-badge">{t.organicBadge}</div>
+                    </div>
+                  </div>
                   <div className="ingredients-info reveal">
                     <h2 className="section-title">{t.purity} <br /><span>{t.nature}</span></h2>
                     <p className="section-subtitle">
@@ -400,12 +505,6 @@ function App() {
                         <h3>{t.aloe}</h3>
                         <p>{t.aloeDesc}</p>
                       </div>
-                    </div>
-                  </div>
-                  <div className="ingredients-visual reveal">
-                    <div className="ingredients-model-card">
-                      <img src={model2} alt="Skincare Model" className="ingredients-model" />
-                      <div className="floating-badge">100% Organic</div>
                     </div>
                   </div>
                 </div>
@@ -474,7 +573,7 @@ function App() {
             <div className="checkout-grid reveal active">
               <div className="checkout-form-container">
                 <h2 className="section-title">{t.shipping} <span>{t.info}</span></h2>
-                <p className="section-subtitle">Complete your details to enjoy the SOS experience.</p>
+                <p className="section-subtitle">{t.checkoutSubtitle}</p>
 
                 <form onSubmit={handlePlaceOrder} className="premium-order-form">
                   <div className="form-row">
@@ -485,7 +584,7 @@ function App() {
                         required
                         value={orderData.name}
                         onChange={(e) => setOrderData({ ...orderData, name: e.target.value })}
-                        placeholder="Sarah Johnson"
+                        placeholder={t.namePlace}
                       />
                     </div>
                     <div className="form-group">
@@ -508,7 +607,7 @@ function App() {
                         required
                         value={orderData.phone}
                         onChange={(e) => setOrderData({ ...orderData, phone: e.target.value })}
-                        placeholder="+212 600 000 000"
+                        placeholder={t.phonePlace}
                       />
                     </div>
                     <div className="form-group">
@@ -531,7 +630,7 @@ function App() {
                         required
                         value={orderData.ville}
                         onChange={(e) => setOrderData({ ...orderData, ville: e.target.value })}
-                        placeholder="Casablanca"
+                        placeholder={t.cityPlace}
                       />
                     </div>
                     <div className="form-group">
@@ -541,7 +640,7 @@ function App() {
                         required
                         value={orderData.country}
                         onChange={(e) => setOrderData({ ...orderData, country: e.target.value })}
-                        placeholder="Morocco"
+                        placeholder={t.countryPlace}
                       />
                     </div>
                   </div>
@@ -552,7 +651,7 @@ function App() {
                       required
                       value={orderData.address}
                       onChange={(e) => setOrderData({ ...orderData, address: e.target.value })}
-                      placeholder="Street name, Building No, Apartment..."
+                      placeholder={t.addressPlace}
                     ></textarea>
                   </div>
 
@@ -562,7 +661,7 @@ function App() {
                     disabled={isSubmitting}
                     style={{ opacity: isSubmitting ? 0.7 : 1, cursor: isSubmitting ? 'not-allowed' : 'pointer' }}
                   >
-                    {isSubmitting ? 'Envoi en cours...' : t.placeOrder}
+                    {isSubmitting ? t.isSubmitting : t.placeOrder}
                   </button>
                 </form>
               </div>
@@ -571,11 +670,11 @@ function App() {
                 <div className="order-summary-card">
                   <h3>{t.summary}</h3>
                   <div className="summary-item">
-                    <span>Product</span>
-                    <span>SOS Hair Care (400g)</span>
+                    <span>{t.product}</span>
+                    <span>{t.productName}</span>
                   </div>
                   <div className="summary-item">
-                    <span>Quantity</span>
+                    <span>{t.quantity}</span>
                     <span>{orderData.quantity}</span>
                   </div>
                   <div className="summary-item divider"></div>
@@ -584,7 +683,7 @@ function App() {
                     <span>{orderData.quantity * 25} USD</span>
                   </div>
                   <div className="summary-footer">
-                    <p>Free Express Shipping Included</p>
+                    <p>{t.freeShipping}</p>
                   </div>
                 </div>
               </div>
@@ -597,33 +696,33 @@ function App() {
       {showCommentModal && (
         <div className="modal-overlay">
           <div className="modal-content reveal active">
-            <h2 className="modal-title">Share Your Thoughts</h2>
-            <p className="modal-subtitle">Would you like to leave a comment about your experience?</p>
+            <h2 className="modal-title">{t.shareThoughts}</h2>
+            <p className="modal-subtitle">{t.shareThoughtsDesc}</p>
             <div className="comment-form">
               <div className="form-group">
-                <label>Rating</label>
+                <label>{t.rating}</label>
                 <select
                   value={newComment.stars}
                   onChange={(e) => setNewComment({ ...newComment, stars: parseInt(e.target.value) })}
                 >
-                  <option value="5">5 Stars</option>
-                  <option value="4">4 Stars</option>
-                  <option value="3">3 Stars</option>
-                  <option value="2">2 Stars</option>
-                  <option value="1">1 Star</option>
+                  <option value="5">{t.stars5}</option>
+                  <option value="4">{t.stars4}</option>
+                  <option value="3">{t.stars3}</option>
+                  <option value="2">{t.stars2}</option>
+                  <option value="1">{t.stars1}</option>
                 </select>
               </div>
               <div className="form-group">
-                <label>Comment</label>
+                <label>{t.comment}</label>
                 <textarea
                   value={newComment.content}
                   onChange={(e) => setNewComment({ ...newComment, content: e.target.value })}
-                  placeholder="Write your review here..."
+                  placeholder={t.commentPlace}
                 ></textarea>
               </div>
               <div className="modal-actions">
-                <button className="btn btn-primary" onClick={handleSubmitComment}>Add Comment</button>
-                <button className="btn" onClick={handleSkipComment}>Skip</button>
+                <button className="btn btn-primary" onClick={handleSubmitComment}>{t.addComment}</button>
+                <button className="btn" onClick={handleSkipComment}>{t.skip}</button>
               </div>
             </div>
           </div>
@@ -651,32 +750,28 @@ function App() {
         <div className="container footer-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-20 pb-16">
           <div className="footer-brand">
             <div className="brand-logo" onClick={handleGoHome} style={{ cursor: 'pointer' }}>SOS</div>
-            <p className="text-base opacity-70">Elevating personal care through the power of nature and science.</p>
+            <p className="text-base opacity-70">{t.slogan}</p>
           </div>
           <div className="footer-links">
             <h4 className="text-lg font-bold mb-6 text-gold">{t.home}</h4>
             <ul className="space-y-4">
               <li><a href="#" className="hover:text-gold transition-colors" onClick={handleGoHome}>{t.home}</a></li>
               <li><a href="#ingredients" className="hover:text-gold transition-colors">{t.ingredients}</a></li>
-              <li><a href="#" className="hover:text-gold transition-colors" onClick={(e) => { e.preventDefault(); setView('checkout'); }}>Shop All</a></li>
-              <li><a href="#" className="hover:text-gold transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-gold transition-colors" onClick={(e) => { e.preventDefault(); setView('checkout'); }}>{t.shopAll}</a></li>
+              <li><a href="#" className="hover:text-gold transition-colors">{t.contact}</a></li>
             </ul>
           </div>
           <div className="footer-newsletter">
-            <h4 className="text-lg font-bold mb-6 text-gold">Join the Glow</h4>
-            <div className="newsletter-form flex mt-4">
-              <input type="email" placeholder="Your Email Address" className="bg-transparent border border-white/10 p-4 text-base flex-1" />
-              <button className="bg-gold text-dark px-8 uppercase font-bold text-sm tracking-widest">Join</button>
+            <h4 className="text-lg font-bold mb-6 text-gold">{t.joinGlow}</h4>
+            <div className="social-links-footer flex gap-6">
+              <span className="cursor-pointer hover:text-gold transition-colors">{t.instagram}</span>
+              <span className="cursor-pointer hover:text-gold transition-colors">{t.pinterest}</span>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
           <div className="container">
-            <p>&copy; 2026 SOS beauty. All rights reserved.</p>
-            <div className="social-links">
-              <span>Instagram</span>
-              <span>Pinterest</span>
-            </div>
+            <p>&copy; 2026 SOS beauty. {t.rights}</p>
           </div>
         </div>
       </footer>
@@ -690,9 +785,9 @@ function App() {
         aria-label="Contact via WhatsApp"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
         </svg>
-        <span className="whatsapp-fab__tooltip">Contactez-nous</span>
+        <span className="whatsapp-fab__tooltip">{t.contact}</span>
       </a>
     </div>
   );
