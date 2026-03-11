@@ -163,6 +163,7 @@ function App() {
     quantity: 1
   });
   const [newComment, setNewComment] = useState({ content: '', stars: 5 });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const comments = useSelector((state) => state.comments.comments);
   const dispatch = useDispatch();
@@ -204,13 +205,35 @@ function App() {
     setTimeout(() => {
       setShowSuccess(false);
       setView('landing');
+      setOrderData({ name: '', email: '', phone: '', ville: '', country: '', address: '', quantity: 1 });
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 3000);
   };
 
-  const handlePlaceOrder = (e) => {
+  const SHEETS_API = 'https://script.google.com/macros/s/AKfycbyd_J8l3y254bBBSYWLgN_UBxTCKulmvbQqlPJnMsFmS2pLsuKTyL_f6ZT8eO8mUJOx/exec';
+
+  const handlePlaceOrder = async (e) => {
     e.preventDefault();
-    setShowCommentModal(true);
+    setIsSubmitting(true);
+    try {
+      const params = new URLSearchParams({
+        name: orderData.name,
+        email: orderData.email,
+        phone: orderData.phone,
+        ville: orderData.ville,
+        country: orderData.country,
+        address: orderData.address,
+        quantity: orderData.quantity,
+        totalPrice: orderData.quantity * 25
+      });
+      await fetch(`${SHEETS_API}?${params.toString()}`, { method: 'GET', mode: 'no-cors' });
+      setShowCommentModal(true);
+    } catch (err) {
+      console.error('Erreur envoi commande:', err);
+      alert('Erreur lors de l\'envoi. Veuillez réessayer.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleSubmitComment = () => {
@@ -527,7 +550,14 @@ function App() {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className="btn btn-primary w-100">{t.placeOrder}</button>
+                  <button
+                    type="submit"
+                    className="btn btn-primary w-100"
+                    disabled={isSubmitting}
+                    style={{ opacity: isSubmitting ? 0.7 : 1, cursor: isSubmitting ? 'not-allowed' : 'pointer' }}
+                  >
+                    {isSubmitting ? 'Envoi en cours...' : t.placeOrder}
+                  </button>
                 </form>
               </div>
 
